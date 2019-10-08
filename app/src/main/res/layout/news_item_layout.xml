@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCyan"
+    android:padding="@dimen/padding_value_25"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/new_title_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_value_10"
+        android:layout_marginLeft="@dimen/margin_value_10"
+        android:gravity="start"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_18"
+        android:textStyle="bold"
+        tools:text="News Title" />
+
+    <TextView
+        android:id="@+id/new_date_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_value_10"
+        android:layout_marginLeft="@dimen/margin_value_10"
+        android:layout_marginTop="@dimen/margin_value_10"
+        android:gravity="start"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_15"
+        android:textStyle="normal"
+        tools:text="Nov 27, 2019 2:00 PM" />
+
+    <TextView
+        android:id="@+id/new_section_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_value_10"
+        android:layout_marginLeft="@dimen/margin_value_10"
+        android:layout_marginTop="@dimen/margin_value_5"
+        android:gravity="start"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="normal"
+        tools:text="Section: Football" />
+
+    <TextView
+        android:id="@+id/new_author_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_value_10"
+        android:layout_marginLeft="@dimen/margin_value_10"
+        android:gravity="start"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_size_13"
+        android:textStyle="italic"
+        tools:text="Author: Filipe" />
+
+
+</LinearLayout>

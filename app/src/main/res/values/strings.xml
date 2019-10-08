@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project6</string>
+    <string name="news_feed">News Feed</string>
+    <string name="no_internet_connection">No Internet connection!</string>
+    <string name="no_news_available">No News available!</string>
+    <string name="section">Section: %s</string>
+    <string name="author">Author: %s</string>
+</resources>
